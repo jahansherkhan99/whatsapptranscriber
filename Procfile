@@ -1,0 +1,1 @@
+web: gunicorn -b :$PORT whatsapp:app --log-file -
